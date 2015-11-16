@@ -68,6 +68,12 @@
             <groupId>net.serenity-bdd</groupId>
             <artifactId>serenity-cucumber</artifactId>
             <version>${serenity.cucumber.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>net.serenity-bdd</groupId>
+                    <artifactId>serenity-core</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
