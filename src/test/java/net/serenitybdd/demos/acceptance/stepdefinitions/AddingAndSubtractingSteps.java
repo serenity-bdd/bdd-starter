@@ -13,7 +13,7 @@ public class AddingAndSubtractingSteps {
 //        throw new PendingException();
     }
 
-    @When("^(?:he|she) add (\\d+) and (\\d+)$")
+    @When("^(?:he|she) adds (\\d+) and (\\d+)$")
     public void add_and(int a, int b) throws Throwable {
 //        throw new PendingException();
     }
